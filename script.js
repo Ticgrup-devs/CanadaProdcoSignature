@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
 													<p style="margin:0px;font-size:12px;color:rgb(44,46,53);line-height:1.2;font-family: 'Roboto Condensed', sans-serif !important;">
 														<a href="https://www.canadacanada.com/" style="background-color:transparent;color:rgb(44,46,53);font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
 													</p>
-													<img src="https://lh3.googleusercontent.com/d/1BreDpdlLPePvwv0gYR25CgU7NujBs3Ex" width="230" alt="Logo">
+													<img src="https://lh3.googleusercontent.com/d/1gwKjG4OqJwHV6d4tCTwXK4xMMQ31si-m" width="230" alt="Logo">
 												</td>
 											</tr>
 											<tr>
