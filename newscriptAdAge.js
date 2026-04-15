@@ -76,33 +76,51 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Plantilla de la firma (Optimizada para máxima compatibilidad)
         const signatureHTML = `
-            <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; width: 500px; font-family: 'Roboto Condensed', Arial, sans-serif; color: #2c2e35;">
-                <tr>
-                    <td style="padding: 10px; background-color: #ffffff;">
-                        <p style="margin: 0; font-size: 14px; font-weight: bold; line-height: 1.2;">${name} ${surname} ${genderText}</p>
-                        <p style="margin: 0; font-size: 13px; padding-bottom: 10px; line-height: 1.2;">${position}</p>
-                        
-                        <div style="padding-bottom: 7px;">
-                            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" width="75" alt="Logo" style="display: block; border: 0;">
-                        </div>
+<div style="background-color: transparent; margin: 0; padding: 0;">
+    <table cellpadding="0" cellspacing="0" border="0" style="width: 450px; min-width: 450px; font-family: 'Roboto Condensed', Arial, sans-serif; color: #2c2e35; line-height: 1.2;">
+        <tbody>
+            <tr>
+                <td style="padding: 10px 0;">
+                    <p style="margin: 0; font-size: 15px; font-weight: bold; text-transform: uppercase; color: #1a1a1a;">
+                        ${name} ${surname} <span style="font-weight: normal; color: #666666;">${genderText}</span>
+                    </p>
+                    <p style="margin: 0; font-size: 13px; padding-bottom: 15px; text-transform: uppercase; color: #1a1a1a;">
+                        ${position}
+                    </p>
+                    
+                    <div style="margin-bottom: 10px;">
+                        <img src="URL_DE_TU_LOGO_CANADA.png" 
+                             width="100" 
+                             alt="CANADA" 
+                             style="display: block; width: 100px; max-width: 100px; height: auto; border: 0;">
+                    </div>
 
-                        <p style="margin: 0; font-size: 12px; padding-top: 5px; line-height: 1.2;">${phone}</p>
-                        <p style="margin: 0; font-size: 12px; line-height: 1.2;">
-                            <a href="https://www.canadacanada.com/" style="color: #2c2e35; text-decoration: none; font-weight: bold;" target="_blank">CANADACANADA.COM</a>
-                        </p>
-                        
-                        <div style="padding-top: 10px;">
-                            <img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" width="140" alt="Logo Ad Age" style="display: block; border: 0;">
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding: 10px; background-color: #ffffff; border-top: 1px solid #eeeeee;">
-                        <p style="margin: 0; font-size: 10px; color: #d3d2d4; line-height: 1.4; text-align: justify;">${officeText}</p>
-                    </td>
-                </tr>
-            </table>
-        `;
+                    <p style="margin: 0; font-size: 12px; padding-top: 5px; color: #2c2e35;">
+                        ${phone}
+                    </p>
+                    <p style="margin: 0; font-size: 12px;">
+                        <a href="https://www.canadacanada.com/" style="color: #2c2e35; text-decoration: none; font-weight: bold;" target="_blank">CANADACANADA.COM</a>
+                    </p>
+                    
+                    <div style="padding-top: 15px;">
+                        <img src="URL_DE_TU_LOGO_ADAGE.png" 
+                             width="140" 
+                             alt="Ad Age Production" 
+                             style="display: block; width: 140px; max-width: 140px; height: auto; border: 0;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-top: 20px; border-top: 1px solid #eeeeee;">
+                    <p style="margin: 0; font-size: 10px; color: #a1a1a1; line-height: 1.4; text-align: justify; font-family: Arial, sans-serif;">
+                        ${officeText}
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+`;
 
         signatureContainer.innerHTML = signatureHTML;
         document.getElementById("show-signature").style.display = "block";
