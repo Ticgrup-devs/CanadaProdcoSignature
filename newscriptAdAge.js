@@ -27,37 +27,33 @@ const signatureHTML = `
         <tbody>
             <tr>
                 <td style="padding: 10px 10px 5px; background-color: #ffffff;">
-                    
-                    <p style="margin: 0px; font-size: 15px; color: rgb(44,46,53); font-weight: bold; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
+                    <p style="margin: 0px; font-size: 12px; color: rgb(44,46,53); line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
                         ${name} ${surname} ${genderText}
                     </p>
-                    <p style="margin: 0px; font-size: 15px; color: rgb(44,46,53); font-weight: bold; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
+                    
+                    <p style="margin: 0px; font-size: 12px; padding-bottom: 10px; color: rgb(44,46,53); line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
                         ${position}
                     </p>
 
-                    <div style="height: 12px; font-size: 1px; line-height: 1px;">&nbsp;</div>
-
-                    <p style="margin: 0px; padding-bottom: 7px; line-height: 1.2;">
+                    <p style="margin: 0px; font-size: 12px; padding-bottom: 7px; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
                         <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" width="75" height="auto" alt="Logo" style="display: block; width: 75px; max-width: 75px; border: 0;">
                     </p>
 
-                    <p style="margin: 0px; font-size: 14px; color: rgb(44,46,53); font-weight: bold; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
+                    <p style="margin: 0px; font-size: 12px; color: rgb(44,46,53); padding-top: 5px; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
                         ${phone}
                     </p>
                     <p style="margin: 0px; font-size: 12px; color: rgb(44,46,53); line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-                        <a href="https://www.canadacanada.com/" style="background-color: transparent; color: rgb(44,46,53); text-decoration: none; font-weight: bold; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
+                        <a href="https://www.canadacanada.com/" style="background-color: transparent; color: rgb(44,46,53); text-decoration: none; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
                     </p>
 
-                    <div style="height: 15px; font-size: 1px; line-height: 1px;">&nbsp;</div>
-
-                    <div style="margin-bottom: 15px;">
+                    <div style="margin-top: 10px;">
                         <img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" width="140" height="auto" alt="Logo Ad Age" style="display: block; width: 140px; max-width: 140px; border: 0;">
                     </div>
                 </td>
             </tr>
             <tr>
-                <td width="100%" style="padding: 10px; background-color: #ffffff; border-top: 1px solid #eeeeee; width: 100% !important;">
-                    <p style="margin: 0px; font-size: 9px; color: rgb(211,210,212); line-height: 1.4; text-align: justify; font-family: 'Roboto Condensed', sans-serif !important; width: 100%; display: block; letter-spacing: 0.1px;">
+                <td style="padding: 10px; background-color: #ffffff; border-top: 1px solid #eeeeee;">
+                    <p style="margin: 0px; font-size: 0.6em; color: rgb(211,210,212); line-height: 1.5; font-family: 'Roboto Condensed', sans-serif !important; text-align: justify;">
                         ${officeText}
                     </p>
                 </td>
