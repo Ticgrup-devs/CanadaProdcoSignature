@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Estructura corregida para que se vea EXACTAMENTE como la foto1
 // Estructura corregida para que se vea EXACTAMENTE como la foto1
 const signatureHTML = `
-    <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-collapse: collapse; width: 480px; font-family: 'Roboto Condensed', sans-serif !important;">
+    <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-collapse: collapse; width: 100%; font-family: 'Roboto Condensed', sans-serif !important;">
         <tbody>
             <tr>
                 <td style="padding: 10px 10px 5px; background-color: #ffffff;">
