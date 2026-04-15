@@ -151,3 +151,16 @@ document.getElementById('copy-button').addEventListener('click', function () {
 
     alert('Firma copiada al portapapeles!');
 });
+document.getElementById('download-button').addEventListener('click', function () {
+        const signatureContent = document.getElementById('signature-container').innerHTML;
+        const fullHtml = `<!DOCTYPE html><html><head><meta charset="UTF-8"></head><body>${signatureContent}</body></html>`;
+        const blob = new Blob([fullHtml], { type: 'text/html' });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'signature_canada.html';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+    });
