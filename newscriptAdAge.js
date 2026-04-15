@@ -24,41 +24,32 @@ document.addEventListener("DOMContentLoaded", function() {
       // Estructura corregida para que se vea EXACTAMENTE como la foto1
 // Estructura corregida para que se vea EXACTAMENTE como la foto1
 const signatureHTML = `
-    <table cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-collapse: collapse; width: 100%; font-family: 'Roboto Condensed', sans-serif !important;">
+    <table cellpadding="0" cellspacing="0" border="0" style="background-color: transparent; border-collapse: collapse; width: 711.5px; max-width: 1000px; font-family: 'Roboto Condensed', sans-serif !important;">
         <tbody>
             <tr>
-                <td style="padding: 10px 10px 5px; background-color: #ffffff;">
-                    
-                    <p style="margin: 0px; font-size: 15px; color: rgb(44,46,53); font-weight: bold; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-                        ${name} ${surname} ${genderText}
-                    </p>
-                    <p style="margin: 0px; font-size: 15px; color: rgb(44,46,53); font-weight: bold; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-                        ${position}
-                    </p>
+                <td style="padding: 10px 0px 5px 0px; background-color: transparent;">
+                    <div style="direction: ltr; font-family: 'Roboto Condensed', sans-serif !important; color: rgb(44,46,53);">
+                        <p style="margin:0px; font-size:12px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">${name} ${surname} ${genderText}</p>
+                        <p style="margin:0px; font-size:12px; padding-bottom:10px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">${position}</p>
+                        
+                        <p style="margin:0px; font-size:12px; padding-bottom:7px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
+                            <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" width="75" height="auto" style="display: block; width: 75px; max-width: 75px; border: 0;" alt="Logo">
+                        </p>
 
-                    <div style="height: 12px; font-size: 1px; line-height: 1px;">&nbsp;</div>
+                        <p style="margin:0px; font-size:12px; padding-top:5px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">${phone}</p>
+                        <p style="margin:0px; font-size:12px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
+                            <a href="https://www.canadacanada.com/" style="background-color:transparent; color:rgb(44,46,53); text-decoration: none; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
+                        </p>
 
-                    <p style="margin: 0px; padding-bottom: 7px; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-                        <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" width="75" height="auto" alt="Logo" style="display: block; width: 75px; max-width: 75px; border: 0;">
-                    </p>
-
-                    <p style="margin: 0px; font-size: 14px; color: rgb(44,46,53); font-weight: bold; line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-                        ${phone}
-                    </p>
-                    <p style="margin: 0px; font-size: 12px; color: rgb(44,46,53); line-height: 1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-                        <a href="https://www.canadacanada.com/" style="background-color: transparent; color: rgb(44,46,53); text-decoration: none; font-weight: bold; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
-                    </p>
-
-                    <div style="height: 15px; font-size: 1px; line-height: 1px;">&nbsp;</div>
-
-                    <div style="margin-bottom: 5px;">
-                        <img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" width="140" height="auto" alt="Logo Ad Age" style="display: block; width: 140px; max-width: 140px; border: 0;">
+                        <div style="margin-top: 10px;">
+                            <img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" width="140" height="auto" style="display: block; width: 140px; max-width: 140px; border: 0;" alt="Logo Ad Age">
+                        </div>
                     </div>
                 </td>
             </tr>
             <tr>
-                <td style="padding: 10px; background-color: #ffffff; border-top: 1px solid #eeeeee;">
-                    <p style="margin: 0px; font-size: 0.6em; color: rgb(211,210,212); line-height: 1.5; font-family: 'Roboto Condensed', sans-serif !important; text-align: justify;">
+                <td style="padding: 10px 0px; background-color: transparent; border-top: 1px solid #eeeeee;">
+                    <p style="margin:0px; font-size:11px; color:rgb(211,210,212); line-height:1.5; font-family: 'Roboto Condensed', sans-serif !important; text-align: justify; width: 711.5px; display: block;">
                         ${officeText}
                     </p>
                 </td>
