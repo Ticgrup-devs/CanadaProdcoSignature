@@ -75,48 +75,52 @@ document.addEventListener("DOMContentLoaded", function() {
         const officeText = officeTexts[office];
 
         // Plantilla de la firma (Optimizada para máxima compatibilidad)
-       const signatureHTML = `
-<div style="direction: ltr; font-family: 'Roboto Condensed', Arial, sans-serif;">
-    <table cellpadding="0" cellspacing="0" border="0" style="width: 480px; border-collapse: collapse; border: none;">
+     // ... (dentro de tu eventListener de submit)
+
+        const genderText = gender ? `(${gender})` : '';
+        const officeText = officeTexts[office];
+
+        // LOGOS: Sustituye estas URLs por las tuyas
+        const urlLogoCanada = "TU_URL_AQUÍ"; // Ejemplo: https://canadacanada.com/logo.png
+        const urlLogoAdAge = "TU_URL_AQUÍ";  // Ejemplo: https://canadacanada.com/adage.png
+
+        const signatureHTML = `
+<div style="direction: ltr; font-family: Arial, sans-serif;">
+    <table cellpadding="0" cellspacing="0" border="0" style="width: 480px; border-collapse: collapse; background-color: transparent;">
         <tbody>
             <tr>
-                <td style="padding: 10px 0px; font-family: Arial, Helvetica, sans-serif;">
-                    
+                <td style="padding: 10px 0px;">
                     <div style="margin-bottom: 2px;">
-                        <span style="font-size: 15px; font-weight: bold; color: #222222; text-transform: uppercase;">
-                            ${name} ${surname}
-                        </span>
-                        <span style="font-size: 14px; color: #777777; margin-left: 4px;">
-                            ${genderText}
-                        </span>
+                        <span style="font-size: 15px; font-weight: bold; color: #1a1a1a; text-transform: uppercase;">${name} ${surname}</span>
+                        <span style="font-size: 14px; color: #666666; margin-left: 4px;">${genderText}</span>
                     </div>
-
                     <div style="margin-bottom: 15px;">
-                        <span style="font-size: 13px; color: #222222; text-transform: uppercase; font-weight: bold;">
-                            ${position}
-                        </span>
+                        <span style="font-size: 13px; color: #1a1a1a; text-transform: uppercase; font-weight: bold;">${position}</span>
                     </div>
                     
                     <div style="margin-bottom: 12px;">
-                        <img src="URL_DE_TU_LOGO_CANADA" width="100" alt="CANADA" style="display: block; width: 100px; height: auto; border: 0;">
+                        <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" 
+                             width="100" 
+                             alt="CANADA" 
+                             style="display: block; width: 100px; max-width: 100px; height: auto; border: 0;">
                     </div>
 
-                    <div style="margin-top: 8px; line-height: 1.4;">
-                        <span style="font-size: 12px; color: #333333; display: block;">${phone}</span>
-                        <a href="https://www.canadacanada.com/" style="font-size: 12px; color: #333333; text-decoration: none; font-weight: bold;" target="_blank">
-                            CANADACANADA.COM
-                        </a>
+                    <div style="margin-top: 8px;">
+                        <span style="font-size: 12px; color: #2c2e35; display: block; margin-bottom: 2px;">${phone}</span>
+                        <a href="https://www.canadacanada.com/" style="font-size: 12px; color: #2c2e35; text-decoration: none; font-weight: bold;" target="_blank">CANADACANADA.COM</a>
                     </div>
                     
                     <div style="margin-top: 18px;">
-                        <img src="URL_DE_TU_LOGO_ADAGE" width="140" alt="Ad Age Production" style="display: block; width: 140px; height: auto; border: 0;">
+                        <img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" 
+                             width="140" 
+                             alt="Ad Age Production" 
+                             style="display: block; width: 140px; max-width: 140px; height: auto; border: 0;">
                     </div>
-
                 </td>
             </tr>
             <tr>
                 <td style="padding-top: 15px; border-top: 1px solid #eeeeee;">
-                    <p style="margin: 0; font-size: 10px; color: #999999; line-height: 1.5; text-align: justify; font-family: Arial, sans-serif;">
+                    <p style="margin: 0; font-size: 10px; color: #888888; line-height: 1.4; text-align: justify;">
                         ${officeText}
                     </p>
                 </td>
