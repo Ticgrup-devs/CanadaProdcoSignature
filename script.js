@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
 												</td>
 											</tr>
 											<tr>
-												<td style="padding:10px; background-color: transparent; border-top: 1px solid #eeeeee;">
+												<td style="padding:10px; background-color: transparent; border-top: none;">
 													<p style="margin:0px; font-size:0.6em; color:rgb(211,210,212); line-height:1.5; font-family: 'Roboto Condensed', sans-serif !important; text-align: justify;">${officeText}</p>
 												</td>
 											</tr>
