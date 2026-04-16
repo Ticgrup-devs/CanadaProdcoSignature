@@ -26,43 +26,52 @@ document.addEventListener("DOMContentLoaded", function() {
         signatureBlock.scrollIntoView({ behavior: "smooth" });
 
         // CAMBIO CRUCIAL: Se eliminaron todos los background-color: #ffffff y se puso transparent
-        const signatureHTML = `
-			<table cellpadding="0" cellspacing="0" border="0" style="background-color: transparent; border-collapse: collapse;">
-				<tbody>
-					<tr>
-						<td style="background-color: transparent;">
-							<div style="display: block; background-color: transparent;">
-								<div class="roboto-firma" style="direction: ltr; font-family: 'Roboto Condensed', sans-serif !important; color: rgb(44,46,53); background-color: transparent;">
-									<table style="border-spacing:0px; border-collapse:collapse; background-color: transparent; width:711.5px; max-width:1000px; font-family: 'Roboto Condensed', sans-serif !important;">
-										<tbody>
-											<tr>
-												<td style="padding:10px 10px 5px; background-color: transparent;">
-													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important">${name} ${surname} ${genderText}</p>
-													<p style="margin:0px; font-size:12px; padding-bottom:10px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important">${position}</p>
-													<p style="margin:0px; font-size:12px; padding-bottom:7px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-														<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" width="75" style="display:block; border:0;" alt="Logo">
-													</p>
-													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); padding-top:5px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">${phone}</p>
-													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-														<a href="https://www.canadacanada.com/" style="background-color:transparent; color:rgb(44,46,53); text-decoration:none; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
-													</p>
-													<img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" width="140" alt="Logo Ad Age" style="display: block; background-color: transparent; border:0;">
-												</td>
-											</tr>
-											<tr>
-												<td style="padding:10px; background-color: transparent; border-top: none;">
-													<p style="margin:0px; font-size:0.6em; color:rgb(211,210,212); line-height:1.5; font-family: 'Roboto Condensed', sans-serif !important; text-align: justify;">${officeText}</p>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-        `;
+       const signatureHTML = `
+    <table cellpadding="0" cellspacing="0" border="0" width="480" style="width: 480px; min-width: 480px; border-collapse: collapse; background-color: transparent; border: none;">
+        <tbody>
+            <tr>
+                <td style="padding: 10px 0px; font-family: 'Roboto Condensed', Arial, sans-serif; background-color: transparent;">
+                    
+                    <div style="margin-bottom: 2px;">
+                        <span style="font-size: 15px; font-weight: bold; color: rgb(44,46,53); text-transform: uppercase; font-family: 'Roboto Condensed', sans-serif !important;">${name} ${surname}</span>
+                        <span style="font-size: 14px; color: #666666; margin-left: 4px; font-family: 'Roboto Condensed', sans-serif !important;">${genderText}</span>
+                    </div>
+                    <div style="margin-bottom: 12px;">
+                        <span style="font-size: 13px; color: rgb(44,46,53); text-transform: uppercase; font-weight: bold; font-family: 'Roboto Condensed', sans-serif !important;">${position}</span>
+                    </div>
+                    
+                    <div style="margin-bottom: 10px; width: 75px !important; height: auto !important;">
+                        <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" 
+                             width="75" 
+                             height="25" 
+                             alt="CANADA" 
+                             style="display: block; width: 75px !important; max-width: 75px !important; height: auto !important; border: 0;">
+                    </div>
+
+                    <div style="margin-top: 8px; line-height: 1.4; color: rgb(44,46,53);">
+                        <span style="font-size: 12px; display: block; font-family: 'Roboto Condensed', sans-serif !important;">${phone}</span>
+                        <a href="https://www.canadacanada.com/" style="font-size: 12px; color: rgb(44,46,53); text-decoration: none; font-weight: bold; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
+                    </div>
+                    
+                    <div style="margin-top: 18px; width: 140px !important; height: auto !important;">
+                        <img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" 
+                             width="140" 
+                             height="50" 
+                             alt="Ad Age Production" 
+                             style="display: block; width: 140px !important; max-width: 140px !important; height: auto !important; border: 0;">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-top: 15px; border-top: 1px solid #eeeeee; background-color: transparent;">
+                    <p style="margin: 0px; font-size: 0.6em; color: rgb(211,210,212); line-height: 1.5; font-family: 'Roboto Condensed', sans-serif !important; text-align: justify; width: 480px; min-width: 480px;">
+                        ${officeText}
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+`;
 
         signatureContainer.innerHTML = signatureHTML;
         document.getElementById('copy-button').style.display = 'inline-block';
