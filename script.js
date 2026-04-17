@@ -40,13 +40,13 @@ document.addEventListener("DOMContentLoaded", function() {
 													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important">${name} ${surname} ${genderText}</p>
 													<p style="margin:0px; font-size:12px; padding-bottom:10px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important">${position}</p>
 													<p style="margin:0px; font-size:12px; padding-bottom:7px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
-														<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcvGQVV9BEZ8Xk_AqwPTunNSiz_7cD03EGbOoh_y38_BTFXuK85tjbIH0stuEiZuwVgt5eW8mNN8tvVqOyBbq0drlFJMEH5rPOkEOkx_LD49uwuQUIuLqLwu43aMUzfqcya8Wg3SgVDwXvFy-sK6vo7BIuh?key=0yoYn1Wk--m5eohp_i2BZxI4" width="75" style="display:block; border:0;" alt="Logo">
+														<img src="https://lh3.googleusercontent.com/d/1B0YyWk3ZTNDApFCg5V2QF7IxhZ55x8dl" style="display:block; border:0;" alt="Logo">
 													</p>
 													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); padding-top:5px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">${phone}</p>
 													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
 														<a href="https://www.canadacanada.com/" style="background-color:transparent; color:rgb(44,46,53); text-decoration:none; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
 													</p>
-													<img src="https://lh3.googleusercontent.com/d/1N9QqMSv42j9pYSgS25xJXmjG2qf_aJ2T" width="140" alt="Logo Ad Age" style="display: block; background-color: transparent; border:0;">
+													<img src="https://lh3.googleusercontent.com/d/1jCoCcSMKPa1dei-MlIcT4_2pyz6R8Aq8" alt="Logo Ad Age" style="display: block; background-color: transparent; border:0;">
 												</td>
 											</tr>
 											<tr>
