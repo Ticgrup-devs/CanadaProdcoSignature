@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", function() {
 														<img src="https://raw.githubusercontent.com/Ticgrup-devs/CanadaAdAgeSignature/7607ea27b8cb3fb4c13bb45b51ae93d74eb262e9/canadavect.png" style="display:block; border:0;" alt="Logo">
 													</p>
 													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); padding-top:5px; line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">${phone}</p>
-													<p style="margin:0px; padding-bottom:7px; font-size:12px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
+													<p style="margin:0px; font-size:12px; color:rgb(44,46,53); line-height:1.2; font-family: 'Roboto Condensed', sans-serif !important;">
 														<a href="https://www.canadacanada.com/" style="background-color:transparent; color:rgb(44,46,53); text-decoration:none; font-family: 'Roboto Condensed', sans-serif !important;" target="_blank">CANADACANADA.COM</a>
 													</p>
-													<img src="https://raw.githubusercontent.com/Ticgrup-devs/CanadaAdAgeSignature/7607ea27b8cb3fb4c13bb45b51ae93d74eb262e9/adagevect.png" alt="Logo Ad Age" style="display: block; background-color: transparent; border:0;">
+													<img src="https://raw.githubusercontent.com/Ticgrup-devs/CanadaAdAgeSignature/7607ea27b8cb3fb4c13bb45b51ae93d74eb262e9/adagevect.png" alt="Logo Ad Age" style="display: block; padding-top:7px; background-color: transparent; border:0;">
 												</td>
 											</tr>
 											<tr>
